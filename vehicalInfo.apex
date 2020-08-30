@@ -1,6 +1,7 @@
 /* @RestResource is used to tell the apex that this class is exposing/consuming the Salesforce API.
     urlMapping - URL of the API that will be used to hit the APEX REST
 */
+
 @RestResource(urlMapping='/v1/registrations/*')
 global class vehicalInfo {
 //getrequest 
