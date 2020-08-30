@@ -1,0 +1,32 @@
+/* This is wrapper class to convert the ouput of SOQL/SQL query result to JSON  */
+public class vehicalInfoPayload {
+    public cls_registrations registrations; 
+    public class cls_registrations {
+      public String plate_number; //EBF28E
+	  public cls_regoexpire registration;
+      public cls_vehicle vehicle;
+      public cls_insurer insurer;  
+	}
+    
+    public class cls_regoexpire{
+      public boolean expired; 
+	  public String expiry_date;	//2021-02-05T23:15:30.000Z  
+     }
+    
+	public class cls_vehicle {
+      public String type;	//Wagon 
+      public String make;	//BMW
+      public String model;	//X4 M40i
+      public String colour;	//Blue
+      public String vin;	//1238934732
+      public String tare_weight;	//1700
+      public String gross_mass; //null
+      
+	}
+	
+	public class cls_insurer {
+	 public String name;	//Allianz
+	 public String code;	//32
+	}
+    
+  }
