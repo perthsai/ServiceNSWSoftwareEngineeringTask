@@ -6,3 +6,7 @@
 </p> 
 
 <p> Select the  url to view the vehical details  https://saidevelopersandbox-developer-edition.ap16.force.com/services/apexrest/v1/registrations/</p>
+
+
+<h2>VehnicalInfoPayload.apex</h2>
+<p>This is Wrapper class to arrange the query output in JSON format </p>
